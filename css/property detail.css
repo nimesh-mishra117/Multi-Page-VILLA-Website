@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+/* nav css */
+.nav-item {
+    padding: 4vh 20px !important;
+}
+
+.nav-item a:hover {
+    color: orangered;
+}
+
+.nav-item .login {
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
+}
+
+.nav-item .login:hover {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(180, 178, 178, 0.644), -2px -2px 5px rgba(63, 62, 62, 0.648);
+}
+
+.nav-item .submit {
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
+}
+
+.nav-item .submit:hover {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(180, 178, 178, 0.644), -2px -2px 5px rgba(63, 62, 62, 0.648);
+}
+
+/* nav css */
+
+/***** Hero *****/
+
+.back {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: white;
+    width: 15%;
+    text-align: center;
+
+}
+
+.text h5 {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+
+}
+
+.text h1 {
+    font-size: 50px !important;
+    position: absolute;
+    left: -35%;
+    font-weight: 900;
+    /* text-align: center; */
+}
+
+/***** End Hero *****/
+
+/* property detail css */
+
+.property-detail {
+    margin-top: 8vw;
+}
+
+.property-detail .cardd {
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.cardd .body {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cardd img {
+    height: 8vh;
+    margin-top: 4px;
+}
+
+
+
+/* property detail css */
+
+/* detail css */
+
+.heading h5 {
+    color: orangered;
+
+}
+
+.heading h1 {
+    font-weight: 900;
+
+}
+
+.detail  .pere {
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.detail h3{
+    font-weight: 900;
+    margin-bottom: 2vw;
+}
+
+/* detail css */
+
+/* prodetail css */
+
+
+.prodetail {
+    margin-top: 8vw;
+}
+
+.prodetail h1,
+h5 {
+    font-weight: 900;
+}
+
+.prodetail h5 {
+    color: orangered;
+    margin-bottom: 30px;
+}
+
+.cardbody {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-weight: 900;
+}
+
+.centerimage img {
+    height: 51vh;
+    width: 100%;
+}
+
+.btn1 {
+    color: white;
+    /* border-radius: 100px!important; */
+    border-bottom-right-radius: 150px !important;
+    border-top-right-radius: 150px !important;
+    position: relative;
+    padding: 10px 20px !important;
+    background-color: black !important;
+}
+
+.btn1 i {
+    position: absolute;
+    left: -20px;
+    top: 0%;
+    color: black;
+    padding: 4px 10px !important;
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid red; */
+}
+
+/* prodetail css */
+
+
+/* footer css */
+
+.footer {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #1e1e1e;
+    margin-top: 8vw;
+    color: white;
+}
+
+/* footer css */
